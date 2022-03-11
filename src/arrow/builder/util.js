@@ -1,4 +1,4 @@
-import { Data, Vector } from 'apache-arrow';
+import { Data, Vector } from '@apache-arrow/es5-esm';
 
 export function ceil64Bytes(length, bpe = 1) {
   return ((((length * bpe) + 63) & ~63) || 64) / bpe;

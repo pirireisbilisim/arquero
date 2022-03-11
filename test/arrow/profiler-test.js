@@ -3,7 +3,7 @@ import { profiler } from '../../src/arrow/encode/profiler';
 import {
   Float64, Int16, Int32, Int64, Int8,
   Uint16, Uint32, Uint64, Uint8
-} from 'apache-arrow';
+} from '@apache-arrow/es5-esm';
 
 function profile(array) {
   const p = profiler();

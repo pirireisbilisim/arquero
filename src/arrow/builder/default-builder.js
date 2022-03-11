@@ -1,4 +1,4 @@
-import { Builder } from 'apache-arrow';
+import { Builder } from '@apache-arrow/es5-esm';
 
 export default function(type) {
   const b = Builder.new({

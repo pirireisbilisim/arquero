@@ -1,4 +1,4 @@
-import { Field, FixedSizeList, List, Struct } from 'apache-arrow';
+import { Field, FixedSizeList, List, Struct } from '@apache-arrow/es5-esm';
 import Type from '../arrow-types';
 import resolveType from '../builder/resolve-type';
 import error from '../../util/error';

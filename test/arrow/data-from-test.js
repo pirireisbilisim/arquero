@@ -3,7 +3,7 @@ import {
   Bool, DateDay, DateMillisecond, Dictionary, Field, FixedSizeList,
   Float32, Float64, Int16, Int32, Int64, Int8, List, Struct, Table,
   Uint16, Uint32, Uint64, Uint8, Utf8, Vector
-} from 'apache-arrow';
+} from '@apache-arrow/es5-esm';
 import { dataFromScan } from '../../src/arrow/encode/data-from';
 import { scanTable } from '../../src/arrow/encode/scan';
 import { table } from '../../src/table';

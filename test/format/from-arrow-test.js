@@ -3,7 +3,7 @@ import tableEqual from '../table-equal';
 import fromArrow from '../../src/format/from-arrow';
 import { not } from '../../src/helpers/selection';
 import { table } from '../../src';
-import { Type, Utf8 } from 'apache-arrow';
+import { Type, Utf8 } from '@apache-arrow/es5-esm';
 
 function arrowTable(data, types) {
   return table(data).toArrow({ types });

@@ -1,6 +1,6 @@
 import tape from 'tape';
 import { readFileSync } from 'fs';
-import { Int8Vector, Table, Type } from 'apache-arrow';
+import { Int8Vector, Table, Type } from '@apache-arrow/es5-esm';
 import fromArrow from '../../src/format/from-arrow';
 import fromCSV from '../../src/format/from-csv';
 import fromJSON from '../../src/format/from-json';

@@ -10,8 +10,8 @@ function onwarn(warning, defaultHandler) {
 }
 
 const name = 'aq';
-const external = [ 'apache-arrow', 'node-fetch' ];
-const globals = { 'apache-arrow': 'Arrow' };
+const external = [ '@apache-arrow/es5-esm', 'node-fetch' ];
+const globals = { '@apache-arrow/es5-esm': 'Arrow' };
 const plugins = [
   json(),
   bundleSize(),

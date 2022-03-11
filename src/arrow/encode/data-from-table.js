@@ -2,7 +2,7 @@ import {
   Float32, Float64,
   Int16, Int32, Int64, Int8,
   Uint16, Uint32, Uint64, Uint8, Vector
-} from 'apache-arrow';
+} from '@apache-arrow/es5-esm';
 import { dataFromArray, dataFromScan } from './data-from';
 import { profile } from './profiler';
 import resolveType from '../builder/resolve-type';

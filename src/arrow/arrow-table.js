@@ -1,4 +1,4 @@
-import { Table } from 'apache-arrow';
+import { Table } from '@apache-arrow/es5-esm';
 import error from '../util/error';
 
 export function table() {

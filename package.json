@@ -1,6 +1,6 @@
 {
   "name": "arquero",
-  "version": "4.8.8",
+  "version": "4.8.9",
   "description": "Query processing and transformation of array-backed data tables.",
   "keywords": [
     "data",
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "acorn": "^8.7.0",
-    "apache-arrow": "^3.0.0",
+    "@apache-arrow/es5-esm": "^7.0.0",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {

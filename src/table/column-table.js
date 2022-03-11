@@ -292,7 +292,7 @@ export default class ColumnTable extends Table {
   /**
    * Format this table as an Apache Arrow table.
    * @param {ArrowFormatOptions} [options] The formatting options.
-   * @return {import('apache-arrow').Table} An Apache Arrow table.
+   * @return {import('@apache-arrow/es5-esm').Table} An Apache Arrow table.
    */
   toArrow(options) {
     return toArrow(this, options);

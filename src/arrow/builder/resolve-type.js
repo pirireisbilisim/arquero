@@ -24,7 +24,7 @@ import {
   Uint64,
   Uint8,
   Utf8
-} from 'apache-arrow';
+} from '@apache-arrow/es5-esm';
 import Type from '../arrow-types';
 import error from '../../util/error';
 import toString from '../../util/to-string';

@@ -1,4 +1,4 @@
-import { Table } from 'apache-arrow'; // eslint-disable-line no-unused-vars
+import { Table } from '@apache-arrow/es5-esm'; // eslint-disable-line no-unused-vars
 
 import dataFromObjects from './data-from-objects';
 import dataFromTable from './data-from-table';

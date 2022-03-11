@@ -4,7 +4,7 @@ const { bools, floats, ints, sample, strings } = require('./data-gen');
 const { fromArrow, table } = require('..');
 const {
   Bool, Dictionary, Float64, Int32, Table, Uint32, Utf8, Vector, predicate
-} = require('apache-arrow');
+} = require('@apache-arrow/es5-esm');
 
 function process(N, nulls, msg) {
   const vectors = [
