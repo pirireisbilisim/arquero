@@ -15,5 +15,9 @@ export function table() {
 }
 
 export function from(arrow) {
+  // TODO: must be remove - workaround
+  if (arrow instanceof Table) {
+    return arrow;
+  }
   return arrow && arrow.chunks ? arrow : table().from(arrow);
 }

@@ -4536,6 +4536,10 @@
   }
 
   function from$1(arrow) {
+    // TODO: must be remove - workaround
+    if (arrow instanceof es5Esm.Table) {
+      return arrow;
+    }
     return arrow && arrow.chunks ? arrow : table$1().from(arrow);
   }
 
@@ -12609,7 +12613,7 @@
   }
 
   var name = "arquero";
-  var version$1 = "4.8.9";
+  var version$1 = "4.8.10";
   var description = "Query processing and transformation of array-backed data tables.";
   var keywords = [
   	"data",
@@ -12633,7 +12637,7 @@
   };
   var repository = {
   	type: "git",
-  	url: "https://github.com/uwdata/arquero.git"
+  	url: "https://github.com/pirireisbilisim/arquero.git"
   };
   var scripts = {
   	prebuild: "rimraf dist && mkdir dist",
